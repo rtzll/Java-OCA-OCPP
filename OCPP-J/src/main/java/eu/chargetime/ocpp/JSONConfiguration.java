@@ -34,6 +34,8 @@ public class JSONConfiguration {
   public static final String REUSE_ADDR_PARAMETER = "REUSE_ADDR";
   public static final String PROXY_PARAMETER = "PROXY";
   public static final String PING_INTERVAL_PARAMETER = "PING_INTERVAL";
+  public static final String HTTP_AUTH_USERNAME = "USERNAME";
+  public static final String HTTP_AUTH_PASSWORD = "PASSWORD";
 
   private final HashMap<String, Object> parameters = new HashMap<>();
 
